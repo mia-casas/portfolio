@@ -3,7 +3,7 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */body{overflow-x:hidden;font-family:'Roboto Slab','Helvetica Neue',Helvetica,Arial,sans-serif}p{line-height:1.75}a{color:#c55a54}a:hover{color:	#c55a54}.text-primary{color:	#c55a54 !important}h1,h2,h3,h4,h5,h6{font-weight:700;font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif}section{padding:100px 0}section h2.section-heading{font-size:40px;margin-top:0;margin-bottom:15px}section h3.section-subheading{font-size:16px;font-weight:400;font-style:italic;margin-bottom:75px;text-transform:none;font-family:'Droid Serif','Helvetica Neue',Helvetica,Arial,sans-serif}@media (min-width:768px){section{padding:150px 0}}
- .btn{font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700}.btn-xl{font-size:18px;padding:20px 40px}.btn-primary{background-color:#c55a54;border-color:#c55a54}.btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#c55a54
+ .btn{align-self:center; font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700}.btn-xl{font-size:18px;padding:20px 40px}.btn-primary{margin: 0 35%; background-color:#c55a54;border-color:#c55a54}.btn-primary:active,.btn-primary:focus,.btn-primary:hover{background-color:#c55a54
     !important;border-color:#c55a54!important;color:#fff}.btn-primary:active,.btn-primary:focus{box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important}::-moz-selection{background:#c55a54;text-shadow:none}::selection{background:#c55a54;text-shadow:none}img::selection{background:0 0}img::-moz-selection{background:0 0}
  
  #mainNav{background-color:#beb4a8}#mainNav .navbar-toggler{font-size:12px;right:0;padding:13px;text-transform:uppercase;color:#fff;border:0;background-color:#c55a54;font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif}#mainNav .navbar-brand{color:#c55a54;font-family:'Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive}#mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#c55a54}
@@ -62,4 +62,10 @@ iframe{
     margin: 25px;
     width: 650px;
     padding-left: 95px;
+}
+
+.view{
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
 }
